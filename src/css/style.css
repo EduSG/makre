@@ -15,29 +15,3 @@ body {
   background-image: url(../img/fundo.png);
 }
 
-header {
-  display: flex;
-  height: 215px;
-  justify-content: space-between;
-  padding: 25px 8.59vw;
-}
-
-nav{
-  display: flex;
-}
-
-a{
-  color: inherit; /* Pode ser ajustado para a cor que você deseja */
-    text-decoration: none;
-}
-
-ul{
-    display: flex;
-    width: 59.47vw;
-    justify-content: space-between;
-    font-size: 1.19vw;
-    color: #fff;
-    list-style: none;
-    align-items: center;
-    margin: auto 0;
-}

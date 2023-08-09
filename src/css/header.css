@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    min-height: 215px;
+    height: 23vh;
+    justify-content: space-between;
+    padding: 25px 8.59vw;
+    position: relative;
+    z-index: 3;
+
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    color: inherit;
+    /* Pode ser ajustado para a cor que você deseja */
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    width: 59.47vw;
+    justify-content: space-between;
+    font-size: 1.19vw;
+    color: #fff;
+    list-style: none;
+    align-items: center;
+    margin: auto 0;
+}
+
+.sublinhado {
+    animation: sublinhar 1.5s; /* infinite iteration */
+    transition: all .5s;
+    animation-fill-mode: forwards;
+
+}
+
+.btn_page:hover{
+    transition: all .8s;
+    transform: scale(1.05);
+}
+
+@keyframes sublinhar {
+    from{
+        border-bottom: 2px solid #ffffff00;
+    }
+
+    to {
+        border-bottom: 2px solid #fff;
+    }
+}

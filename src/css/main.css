@@ -1,0 +1,14 @@
+h1{
+    display: flex;
+    font-size: 4.16vw;
+    color: #D9D9D9;
+    font-weight: 400;
+    text-align: center;
+}
+
+main{
+    padding-left: 53.95vw;
+    padding-top: 131px;
+    position: relative;
+    z-index: 3;
+}
