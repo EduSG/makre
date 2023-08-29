@@ -1,0 +1,49 @@
+.conhecimentos{
+    display: flex;
+    height: 933px;
+    min-height: 933px;
+    width: 100%;
+    background-color: #180000;
+}
+
+.wrapper_conhecimentos{
+    display: flex;
+    background: #d9d9d9;
+    border-radius: 10px;
+    width: 79.375vw;
+    height: 660px;
+    margin: auto;
+    padding: 1.17vw;
+}
+
+.wcd, .wce{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height:100%;
+    align-items: center;
+}
+
+.wce > h3{
+    display: flex;
+    font-size: 2.08vw;
+    color: #083552;
+    justify-content: center;
+}
+
+.wce > p{
+    display: flex;
+    margin-top: 6%;
+    padding: 1%;
+    font-weight: 500;
+    font-size: 0.95vw;
+    text-align: center;
+}
+
+.wcdimg{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    background-color: #083552;
+    border-radius: 10px;
+}

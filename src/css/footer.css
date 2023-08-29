@@ -1,0 +1,56 @@
+footer{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    background-color: #000;
+    position: relative;
+    z-index: 3;
+}
+
+.fs{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: #d9d9d9;
+    padding-top: 60px;
+}
+
+.fltitulo{
+    display: flex;
+    align-items: center;
+}
+
+.fldec{
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+    width: 20px;
+    height: 20px;
+}
+
+.flcidade{
+    font-size: 1vw;
+    font-weight: 300;
+    padding-left: .3vw;
+}
+
+.fldescricao{
+    margin-top: 5%;
+}
+
+.fi{
+    display: flex;
+    width: 80%;
+    color: #d9d9d9;
+    font-size: .7vw;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.fid{
+    display: flex;
+    justify-content: space-between;
+    width: 29%;
+}

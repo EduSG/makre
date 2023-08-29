@@ -1,11 +1,11 @@
 header {
     display: flex;
-    min-height: 215px;
-    height: 23vh;
+    height: 215px;
     justify-content: space-between;
     padding: 25px 8.59vw;
-    position: relative;
-    z-index: 3;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 
 }
 

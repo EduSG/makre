@@ -1,0 +1,56 @@
+.portal{
+    display: flex;
+    height: 86vh;
+    min-height: 800px;
+    width: 100%;
+    background-color: #180000;
+    flex-direction: column;
+}
+
+h4{
+    display: flex;
+    font-size: 2.08vw;
+    color: #d9d9d9;
+    justify-content: center;
+}
+
+.wrapper_portal{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9vw;
+    margin-top: 34px;
+}
+
+.wrapperp_conteudo{
+    display: flex;
+    background: #d9d9d9;
+    border-radius: 10px;
+    width: 71vw;
+    height: 576px;
+    padding: 1.17vw;
+}
+
+.btn{
+    display: flex;
+    width: 3.64vw;
+    height: 3.64vw;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 4vw;
+    color: #000000bd;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: all .4s;
+}
+
+.seta_e, .seta_d{
+    display: flex;
+    align-items: center;
+}
+
+.btn:hover{
+    transform: scale(1.06);
+}
