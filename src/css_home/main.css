@@ -4,14 +4,14 @@ h1{
     color: #D9D9D9;
     font-weight: 400;
     text-align: center;
+    margin-top: 15%;
 }
 
 main{
     width: 100%;
     padding-left: 53.95vw;
-    padding-top: 14vh;
     position: relative;
-    padding-bottom: 37vh;
     z-index: 3;
-    margin-top: 215px;
+    margin-top: 23vh;
+    height: 77vh;
 }
