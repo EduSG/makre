@@ -2,7 +2,7 @@
     display: flex;
     width: 100vw;
     position: fixed;
-    z-index: 10;
+    z-index: 7;
     height: 33vh;
     background: linear-gradient(180deg, #120000 39.90%, rgba(0, 0, 0, 0.00) 100%);
 
