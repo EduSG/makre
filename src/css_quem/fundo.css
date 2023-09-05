@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: url(../img/fundo_bordo.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+  

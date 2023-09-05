@@ -1,6 +1,6 @@
 const header = document.querySelector('header');
 const header_conteudo = `  
-<img src="./src/img/Logo.png" alt="" />
+<img id='logo' src="./src/img/Logo.png" onerror="func_icone()" alt="" />
 <nav>
   <ul>
     <a href="">
@@ -37,3 +37,8 @@ const header_conteudo = `
 `;
 
 header.innerHTML = header_conteudo;
+
+function func_icone() {
+  const logo = document.querySelector('#logo');
+  logo.src = "../src/img/Logo.png"
+}

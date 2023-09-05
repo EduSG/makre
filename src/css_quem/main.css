@@ -1,0 +1,36 @@
+.qs_main{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 23vh;
+    max-width: 80.72vw;
+    justify-content: center;
+    height: 63.23vh;
+}
+
+.img_div{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 63.23vh;
+    width: 32.08vw;
+    align-items: center;
+}
+
+.qsid_azul{
+    display: flex;
+    width: 32.08vw;
+    background-color: #083552;
+    height: 35%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 60%;
+}
+
+.qsid_img{
+    display: flex;
+    width: 28.07vw;
+    height: 28.07vw;
+    background-color: #1E1E1E;
+    position: absolute;
+    z-index: 2;
+}
